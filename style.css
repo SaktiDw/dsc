@@ -1,0 +1,137 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body 
+{
+	background: #fefefe;
+}
+
+header
+{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 900px;
+	background: url('bark-wallpapers-27771-4214403.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header span 
+{
+	height: 1px;
+	width: 200px;
+	border: 1px solid rgba(255,255,255,.78);
+	margin-right: 20px;
+}
+header .text
+{
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	position: absolute;
+	right: 10vw;
+	bottom: 15vw;
+	width: 608px;
+	text-align: right;
+	font-family: sans-serif;
+}
+header .text .title 
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	color: rgba(255,255,255,.78);
+}
+header .text h1 {
+	font-size: 15vw;
+	font-family: serif;
+	margin: 0;
+	line-height: 0.55;
+	font-style: bold;
+}
+header .text p 
+{
+	margin-top: 40px;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: left;
+	color: rgba(255,255,255,.78);
+}
+
+section 
+{
+	position: relative;
+	display: block;
+	height: 900px;
+	width: 100%;
+	z-index: 9;
+	padding: 10% 0;
+}
+
+section .box1,
+section .box2
+{
+	display: flex;
+	background: #fff;
+	position: absolute;
+	overflow: hidden;
+	box-shadow: 0 0 6px 0px #0005;
+}
+section .box1 
+{
+	width: 70vw;
+	height: 40vw;
+	right: 10vw;
+	top: -5vw;
+}
+
+section .box1 .pic,
+section .box1 .text
+{
+	flex: 1;
+}
+
+section .box1 .text
+{
+	padding: 4.5vw;
+	padding-left: 0;
+}
+
+section .box1 .text h1 
+{
+	font-size: 80px;
+	margin-bottom: 12%;
+}
+
+section .box1 .text p
+{
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+section .box1 .pic {
+	padding: 4%;
+	background-image: url('thumb-1920-718525.png');
+	background-position: -4vw 44px;
+	background-repeat: no-repeat;
+	background-size: 45vw;
+}
+
+section .box2 {
+	width: 42vw;
+	height: 25vw;
+	left: 10vw;
+	top: 25vw;
+}
+section .box2 img 
+{
+	width: 100%;
+	height: auto;
+}
